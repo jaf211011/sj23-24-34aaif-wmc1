@@ -1,0 +1,243 @@
+:root
+{
+
+    --fs-xl: clamp(4rem, 12vw + 1rem, 12rem);
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+}
+
+@media (min-width: 320px)
+{
+
+}
+
+@media (min-width: 768px)
+{
+
+}
+
+@media (min-width: 1200px)
+{
+    .rowvid video {
+       height: 300px; 
+    }
+ }
+
+ @font-face 
+{
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+
+body
+{
+    font-family: 'Montserrat';
+    background-image: url("https://assets.vogue.com/photos/59a6ee9ac3f99f428736c1a7/master/w_1600,c_limit/01-newfoundland-canada-travel-guide.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main
+{
+    border: 0;
+    max-width: 1100px;
+    margin:0 auto; 
+}
+
+.siteheader
+{
+    padding: 75px 0px;
+}
+
+.siteheader h1
+{
+    color: white;
+    font-weight: bold;
+    font-size: calc(5vw + 1rem);
+    text-align: right;
+}
+
+.siteheader h2
+{
+    color: white;
+    font-weight: bold;
+    font-size: calc(2vw + 1rem);
+    text-align: right;
+}    
+
+.mainblogpost
+{
+    background-color:white;
+    text-align: left;
+    border-width: thick;
+}
+
+.mainblogpostHeader
+{
+    text-align: center;
+    padding-top: 20px;
+}    
+
+.mainblogpostHeader img 
+{
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid black;
+    vertical-align: middle;
+}    
+
+.flex-container
+{
+    display: flex
+}
+
+.blogpostContent h1, .blogpostContent p
+{
+    display: inline;
+}
+
+.column
+{
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.columnimage
+{
+    display: flex;
+    padding: 25px;
+    margin: auto;
+    vertical-align: middle;
+    margin-left: -175px;
+    height: auto;
+    max-width: 80%;
+}
+
+#columnText
+{
+    padding: 5px 200px;
+}
+
+video
+{
+  display: block;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row 
+{
+    display: flex;
+    gap: 10px;
+    margin-top: -30px;
+}
+  
+.column 
+{
+    flex: 33.33%;
+    max-width: 350px;
+
+}
+
+.column img
+{
+    width: 350px;
+    height: auto;
+}
+
+.column p
+{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.picgalleryheader
+{
+    display: flex;
+}
+
+.picgalleryheader img
+{
+    width: 20px;
+    height: auto;
+}
+
+.picgalleryheader h1
+{
+    padding-left: 10px;
+}
+
+footer
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.001),rgba(0, 0, 0, 0.5)) , url("pexels-headshatter-1252399.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.footertext 
+{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+    font-size: 25px;
+}
+
+.footertext h1, .footertext p
+{
+    color: white;
+}
+
+.inputemail
+{
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    color: white;
+    outline: none;
+    font-size: 50px;
+}
+
+::placeholder
+{
+    color: white;
+}
+
+.signupbutton
+{
+    border-style: solid;
+    border-color: white;
+    background: none;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+.socials 
+{
+    padding-left: -100px;
+    padding-top: 50px;
+    display: flex;
+    margin: auto;
+    Height: 80px;
+    Width: 80px;
+    gap: 10px;
+    float: center;
+}
+
+
+
+
+
+
+
